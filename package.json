@@ -1,0 +1,22 @@
+{
+  "name": "storymap_fw",
+  "version": "1.0.0",
+  "description": "Devmads client freamwork",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack  --config webpack.config.js --watch"
+  },
+  "author": "Rota Zoltan",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "@types/knockout": "^3.4.66",
+    "knockout": "^3.5.0"
+  }
+}
